@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "debug": "registry:npm/debug#2.0.0+20160511151334"
+  },
+  "globalDependencies": {
+    "github-electron": "registry:dt/github-electron#1.2.5+20160624085047",
+    "jquery": "registry:dt/jquery#1.10.0+20160704162008",
+    "node": "registry:dt/node#6.0.0+20160720070758",
+    "rivets": "registry:dt/rivets#0.0.0+20160317120654"
   }
 }

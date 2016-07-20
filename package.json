@@ -7,9 +7,8 @@
   },
   "devDependencies": {
     "electron-prebuilt": "^1.2.6",
-    "handlebars": "^4.0.5",
-    "handlebars.binding": "^0.3.6",
-    "jquery": "^3.1.0"
+    "jquery": "^3.1.0",
+    "rivets": "^0.9.1"
   },
   "files": [
     "Extensions",
