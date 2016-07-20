@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div id="t"></div>
+</body>
+<script>
+    // You can also require other files to run in this process
+    window.rivets = require('./node_modules/rivets/dist/rivets.js');
+    require('./renderer.js');
+    window.$ = window.jQuery = require('./node_modules/jquery/dist/jquery.js');
+  </script>
+
+</html>

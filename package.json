@@ -1,0 +1,18 @@
+{
+  "name": "barly",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc -p . ; electron . --enable-transparent-visuals --disable-gpu"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.6",
+    "handlebars": "^4.0.5",
+    "handlebars.binding": "^0.3.6",
+    "jquery": "^3.1.0"
+  },
+  "files": [
+    "Extensions",
+    "."
+  ]
+}
