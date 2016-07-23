@@ -14,12 +14,15 @@ function createWindow(): void {
     window = new electron.BrowserWindow(
         {
             titleBarStyle: "default",
-            autoHideMenuBar: false,
+            autoHideMenuBar: true,
             width: width, height: 30,
             frame: false, resizable: false,
             movable: false, fullscreenable: false,
-            transparent:true, hasShadow:false, alwaysOnTop:true,
-            x: 0, y: 0
+            transparent: true, hasShadow: false, alwaysOnTop: true,
+            //type: "dock", prod type,
+            type: "notification",
+            x: 0, y: 0,
+            show: false
         }
     );
     window.loadURL(`file://${__dirname}/index.html`);

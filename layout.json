@@ -1,0 +1,14 @@
+{
+    "barheight": 40,
+    "rows": 3,
+    "columns": 5,
+    "extensions": [
+        {
+            "name": "clock",
+            "row": 0,
+            "column": 4,
+            "colSpan": 1,
+            "rowSpan": 2
+        }
+    ]
+}

@@ -6,8 +6,13 @@
 </head>
 
 <body>
-  <div id="t"></div>
+  <div>
+    <div class="absoluteBlock" rv-each-ext="extensions" rv-style-width="ext.width" rv-style-height="ext.height" rv-style-left="ext.x"
+      rv-style-top="ext.y" rv-id="ext.name">{ext | log}</div>
+  </div>
 </body>
+
+
 <script>
     // You can also require other files to run in this process
     window.rivets = require('./node_modules/rivets/dist/rivets.js');
@@ -16,3 +21,14 @@
   </script>
 
 </html>
+<style>
+  .absoluteBlock {
+    display: block;
+    position: absolute;
+    -webkit-user-select: none;
+    cursor: default;
+  }
+  body {
+    overflow: hidden;
+  }
+</style>
